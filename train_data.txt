@@ -1,0 +1,40 @@
+{
+  "number": "045А",
+  "route": "Москва - Санкт-Петербург",
+  "locomotive": {
+    "serial_number": "ТЭП-70-1234",
+    "power": 4000
+  },
+  "carriages": [
+    {
+      "number": 10,
+      "carriage_type": "купейный",
+      "seats": [
+        {
+          "number": 1,
+          "seat_type": "нижнее",
+          "comfort_class": "купейное",
+          "reserved": false
+        },
+        {
+          "number": 2,
+          "seat_type": "верхнее",
+          "comfort_class": "купейное",
+          "reserved": false
+        }
+      ]
+    },
+    {
+      "number": 11,
+      "carriage_type": "плацкартный",
+      "seats": [
+        {
+          "number": 1,
+          "seat_type": "нижнее",
+          "comfort_class": "плацкартное",
+          "reserved": false
+        }
+      ]
+    }
+  ]
+}
